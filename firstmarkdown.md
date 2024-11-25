@@ -3,7 +3,7 @@
 # Git and GitHub 💻
 
 
-|                        ![GitHub Logo](githublogo.png)                          |
+|                        ![GitHub Logo](mdimages/githublogo.png)                          |
 |:------------------------------------------------------------------------------:|
 |                 [*Click here to visit GitHub*](https://github.com/)            |
 
@@ -50,7 +50,7 @@
 7. Make changes and commit and push
 8. Merge
 
-![Pull Request Workflow](pull-request-flow.png)
+![Pull Request Workflow](mdimages/pull-request-flow.png)
 
 >### **Cherry-Picking** 🍒	
 >>**When to use:**
@@ -58,7 +58,7 @@
 - Avoiding merge conflicts
  - Applying a specific feature to multiple branches
 
-![Cherry-pick logo](cherrypicklogo4.png)
+![Cherry-pick logo](mdimages/cherrypicklogo4.png)
 
 >>**Step by Step:**
 1. Identify the commit (git log)- find the SHA
@@ -67,7 +67,7 @@
  4. Git push
 5. To cherry-pick multiple commits you can separate each with a space
 
-![Cherry-Pick process](cherrypick3.jpg)
+![Cherry-Pick process](mdimages/cherrypick3.jpg)
 
 >### **Staging in Git**
 >>**Key concepts:**
@@ -80,7 +80,7 @@
 3. Commit staged changes
 4. Unstaging if necessary - this can move our filed back to unstaged
     
-![Staging Syntax](stagingsyntax3.jpg)
+![Staging Syntax](mdimages/stagingsyntax3.jpg)
 
 >### **Git Flow**
 A branching mode that requires schedule releases, best for long-term projects
@@ -94,7 +94,7 @@ A branching mode that requires schedule releases, best for long-term projects
 - Release - merged into both develop and main when preparing for a release
 - Hotfix - Created from main for urgent fixes
 
-![GitFlow](gitflow2.png)
+![GitFlow](mdimages/gitflow2.png)
 
 >### **GitHub Flow**
 Designed for projects with continuous delivery 
@@ -103,7 +103,7 @@ Best for projects that deploy frequently and smaller teams
 - Main
 - Feature
 
-![GitHub Flow](githubflow2.png)
+![GitHub Flow](mdimages/githubflow2.png)
 
 >### **Git Stash**
 A feature that allows you to save your uncommitted changes temporarily without committing them to the repository, useful for when you need to switch branches
@@ -113,7 +113,7 @@ A feature that allows you to save your uncommitted changes temporarily without c
 3. Use git stash drop to drop the most recent stash
 4. You can stash specific files e.g. Git stash push -m  ""  file1.txt
 
-![Git Stash Syntax](gitstash2.png.jpg)
+![Git Stash Syntax](mdimages/gitstash2.png.jpg)
 
 >### **Branching Strategies** ⤵️
 >>A branching strategy is a strategy that software development teams adopt for writing, merging and deploying code with the help of a version control system like Git. 
